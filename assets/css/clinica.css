@@ -1,0 +1,33 @@
+.pagina_clinica {
+ display: flex;
+ align-items: center;
+ margin-top: 20rem;
+ justify-content: center;
+ gap: 3rem;
+}
+
+.pagina_clinica--conteudo {
+ display: flex;
+ flex-direction: column;
+ gap: 1.5rem;
+ width: 35%;
+ color: var(--texto);
+}
+
+.pagina_clinica--titulo {
+ font-size: 2rem;
+ font-weight: 600;
+}
+
+.pagina_clinica--texto {
+ font-size: 1rem;
+ line-height: 1.3rem;
+}
+
+.pagina_clinica--lista {
+ display: flex;
+ flex-direction: column;
+ gap: 1rem;
+ list-style: inside;
+
+}

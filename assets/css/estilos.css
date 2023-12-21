@@ -1,0 +1,28 @@
+@import url(./principal.css);
+@import url(./clinica.css);
+@import url(./farmacia.css);
+@import url(./duvidas.css);
+@import url(./rodape.css);
+
+*,
+*::before,
+*::after {
+ box-sizing: border-box;
+}
+
+:root {
+
+ --fundo-cabecalho: #FF9A6C;
+ --cor-botao: #FF725E;
+ --off-white: #FAF9F6;
+ --branco: #ffffff;
+ --texto: #263238;
+ --fundo-rodape: #ffe6da;
+
+
+}
+
+body {
+ background-color: var(--off-white);
+ font-family: 'Montserrat';
+}

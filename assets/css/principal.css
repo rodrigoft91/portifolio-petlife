@@ -1,0 +1,81 @@
+header {
+ width: 100%;
+ background-color: var(--fundo-cabecalho);
+ display: flex;
+ justify-content: space-between;
+ padding: 1.5rem 10rem 1rem;
+ color: var(--branco);
+
+}
+
+nav {
+ display: flex;
+ gap: 3.5rem;
+}
+
+.logoheader {
+ width: 4.5rem;
+}
+
+.pagina_principal {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 3rem 0 0;
+ gap: 1rem;
+}
+
+.pagina_principal--imagem {
+ width: 580px;
+ height: 580px;
+ position: relative;
+
+}
+
+.texto_principal {
+ display: flex;
+ flex-direction: column;
+ gap: 1rem;
+ width: 30%;
+}
+
+.texto_principal--titulo {
+ font-size: 1.8rem;
+ font-weight: 600;
+ color: var(--texto);
+}
+
+.texto_principal--texto {
+ font-size: 1rem;
+ line-height: 1.3rem;
+ color: var(--texto);
+}
+
+.botoes_principal {
+ display: flex;
+ gap: 2rem;
+ justify-content: center;
+ align-items: center;
+ padding: 1rem 0 0 0;
+}
+
+.botoes_principal--consulta {
+ background-color: var(--cor-botao);
+ color: var(--branco);
+ padding: 1rem 2rem;
+ border-radius: 0.6rem;
+}
+
+.botoes_principal--conheca {
+ color: var(--cor-botao);
+ text-decoration: underline;
+
+}
+
+.absolute {
+ position: absolute;
+ width: 100%;
+ bottom: 0;
+ left: 0;
+ z-index: -10;
+}

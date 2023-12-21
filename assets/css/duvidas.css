@@ -1,0 +1,35 @@
+.pagina_duvidas {
+ margin: 10rem 10rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 5rem;
+}
+
+.pagina_duvidas--imagem {
+ width: 540px;
+ height: 540px;
+}
+
+.pagina_duvidas--texto {
+ display: flex;
+ flex-direction: column;
+ gap: 1.5rem;
+ width: 30%;
+ color: var(--texto);
+}
+
+.pagina_duvidas--titulo {
+ font-size: 2rem;
+ font-weight: 600;
+}
+
+.pagina_duvidas--conteudo {
+ text-align: center;
+ border: 1px solid red;
+ padding: 0.6rem 0.2rem;
+ border-radius: 0.4rem;
+ font-size: 0.8rem;
+ font-weight: 600;
+
+}
